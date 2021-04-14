@@ -1,3 +1,9 @@
+// fix bug not allowed to load local resources
+new BrowserWindow({
+  webPreferences: {
+    webSecurity: false
+  }
+});
 // import json file
 let url="https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json";
 let req = new XMLHttpRequest()
