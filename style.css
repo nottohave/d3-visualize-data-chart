@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  height: 100%;
+}
+
+svg {
+  background-color: white;
+  font-family: sans-serif;
+  box-shadow: blue;
+}
+
+.bar {
+  border-color: lightblue;
+  fill: grey;
+}
+
+.bar:hover {
+  fill: orange;
+}
+
+.tick {
+  font-size: 15px;
+}
+
+/* color for the x and y axis */
+g{
+  color: green;
+}
+
+#tooltip{
+  color: black;
+  font-size: 25px;
+}
+
+#title {
+  font-size: 30px;
+  fill: green;
+}
