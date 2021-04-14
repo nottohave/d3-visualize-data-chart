@@ -90,7 +90,7 @@ let drawBars = function() {
                 .style("visibility", "visible")
                 .text(item[0] + ", $" + item[1] + " billions"  )
 
-        document.querySelector("#tooltip").setAttribute("data-date", item[0])
+        document.querySelector("#tooltip").setAttribute("data-date", item[0]);
       })
       .on("mouseout", (values, item) => {
         tooltip.transition()
