@@ -1,12 +1,6 @@
-// fix bug not allowed to load local resources
-new BrowserWindow({
-  webPreferences: {
-    webSecurity: false
-  }
-});
 // import json file
 let url="https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json";
-let req = new XMLHttpRequest()
+let req = new XMLHttpRequest();
 
 // create data, values, height scale, xscale, x axis scale and y axis scale for inversion
 let data
